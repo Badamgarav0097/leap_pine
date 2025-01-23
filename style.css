@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: cadetblue;
+  width: 1440px;
+  margin-inline: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  gap: 24px;
+}
+nav a {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100px;
+  display: block;
+  text-decoration: none;
+}
+.user-icon {
+  width: 11.67px;
+  height: 15px;
+  top: 2.5px;
+  left: 4.17px;
+  border: 2px;
+}
+
+.user-icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.language {
+  color: white;
+  border-radius: 60px;
+  border: 10px;
+}
+/* img {
+  width: 101px;
+  height: 35px;
+} */
+
+.hero {
+  height: 773px;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/HeroImage.png);
+}
+
+.hero h2 {
+  color: rgba(232, 237, 242, 0.72);
+  font-size: 80px;
+}
+.hero h1 {
+  color: rgba(253, 253, 254, 1);
+  font-size: 250px;
+  top: 169px;
+  left: 411.5px;
+}
+.hero h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 900;
+  line-height: 64px;
+  width: 144px;
+}
+
+.location img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-image: url(./images/Location\ image.png);
+  color: white;
+}
+
+.locations h2 {
+  font-size: 37px;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  width: 250px;
+  text-align: center;
+  font-family: "Bebas Neue", serif;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.location {
+  position: relative;
+  width: 252px;
+  height: 370px;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+.destinations {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url(./images/Roadmap\ image.png);
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.destination-title {
+  font-size: 42px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+  margin-top: 120px;
+}
+
+.destination {
+  width: 453px;
+  padding: 32px 30px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: space-between;
+}
+.provinces {
+  width: 513px;
+  height: 640px;
+  position: relative;
+  align-items: start;
+  border: solid;
+  color: (238, 233, 217, 1);
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.province {
+  width: 513px;
+  display: flex;
+  padding: 32px 30px;
+  justify-content: space-between;
+  border-radius: 999px;
+}
+
+.province-sukhbaatar {
+  background-color: rgba(238, 233, 217, 1);
+}
+.province-amarbay {
+  background-color: #8bb8c1;
+}
+.province-khorgo {
+  background-color: rgba(170, 216, 215, 0.8);
+}
+.province-terkh {
+  background-color: rgba(139, 192, 189, 0.8);
+}
+.province-khuvsgul {
+  background-color: rgba(151, 204, 224, 0.8);
+}
+.button {
+  border-radius: 60%;
+  width: 52px;
+  height: 52px;
+}
+
+.province h2 {
+  width: 217px;
+  height: 29px;
+  @import url(<linkhref="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"rel="stylesheet">);
+  font-size: 24px;
+}
+.province p {
+  width: 44px;
+  height: 15px;
+  @import url(<linkhref="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"rel="stylesheet">);
+  font-size: 12px;
+}
+.province button {
+  width: 37px;
+  height: 16px;
+  border-radius: 50%;
+}
+.icon {
+  display: flex;
+  align-items: first baseline;
+  justify-content: start;
+  margin-inline: 10px;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: column;
+  margin: 10px;
+}
